@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.next-dev/
+.next-production/
+out/
+.env.local
+*.tsbuildinfo
+.sites-runtime/

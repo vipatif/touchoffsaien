@@ -1,0 +1,325 @@
+[
+  {
+    "id": "work-01",
+    "type": "video",
+    "image": "work-01",
+    "title": "The smooth-hair story",
+    "category": "HAIR / THE PROCESS",
+    "description": "A closer look at the styling process and the finished hair.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-01.mp4",
+    "preview": "/media/work-01-preview.mp4",
+    "duration": 42.47,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-02",
+    "type": "video",
+    "image": "work-02",
+    "title": "A fresh colour perspective",
+    "category": "HAIR / COLOUR",
+    "description": "A short colour and styling moment from the salon.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-02.mp4",
+    "preview": "/media/work-02-preview.mp4",
+    "duration": 10.96,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-03",
+    "type": "video",
+    "image": "work-03",
+    "title": "Let’s talk hair care",
+    "category": "HAIR / CONVERSATIONS",
+    "description": "A conversation from the salon about hair care.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-03.mp4",
+    "preview": "/media/work-03-preview.mp4",
+    "duration": 58.12,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-04",
+    "type": "video",
+    "image": "work-04",
+    "title": "The pedicure pause",
+    "category": "NAILS / CARE RITUALS",
+    "description": "Take a little time for yourself with a relaxing pedicure.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "NAILS"
+    ],
+    "src": "/media/work-04.mp4",
+    "preview": "/media/work-04-preview.mp4",
+    "duration": 32.25,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-05",
+    "type": "video",
+    "image": "work-05",
+    "title": "In the stylist’s chair",
+    "category": "HAIR / STYLING",
+    "description": "A moment of individual styling and personal attention.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-05.mp4",
+    "preview": "/media/work-05-preview.mp4",
+    "duration": 11.89,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-06",
+    "type": "video",
+    "image": "work-06",
+    "title": "The grooming ritual",
+    "category": "MEN / HAIR & SCALP CARE",
+    "description": "A look inside a men’s grooming and scalp-care session.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "MEN",
+      "HAIR"
+    ],
+    "src": "/media/work-06.mp4",
+    "preview": "/media/work-06-preview.mp4",
+    "duration": 89.35,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-07",
+    "type": "video",
+    "image": "work-07",
+    "title": "Colour, in every movement",
+    "category": "HAIR / COLOUR",
+    "description": "Dimensional colour and a closer look at the finish.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-07.mp4",
+    "preview": "/media/work-07-preview.mp4",
+    "duration": 33.78,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-08",
+    "type": "video",
+    "image": "work-08",
+    "title": "A new shape, a new feeling",
+    "category": "HAIR / THE CUT",
+    "description": "Follow a haircut journey, from conversation to the finished look.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-08.mp4",
+    "preview": "/media/work-08-preview.mp4",
+    "duration": 105.44,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-09",
+    "type": "video",
+    "image": "work-09",
+    "title": "Saien, at work",
+    "category": "HAIR / FINISHING",
+    "description": "A behind-the-scenes styling story. This original source video has no audio.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-09.mp4",
+    "preview": "/media/work-09-preview.mp4",
+    "duration": 34.83,
+    "hasAudio": false,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-10",
+    "type": "video",
+    "image": "work-10",
+    "title": "A little care, all around",
+    "category": "SKIN / HAIR / THE EXPERIENCE",
+    "description": "A salon visit with skin care, hair care and finishing touches.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "SKIN",
+      "HAIR"
+    ],
+    "src": "/media/work-10.mp4",
+    "preview": "/media/work-10-preview.mp4",
+    "duration": 90.72,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-11",
+    "type": "video",
+    "image": "work-11",
+    "title": "Every texture has a story",
+    "category": "HAIR / PERSONAL CARE",
+    "description": "A consultation and a closer look at individual hair texture.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-11.mp4",
+    "preview": "/media/work-11-preview.mp4",
+    "duration": 99.89,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-12",
+    "type": "video",
+    "image": "work-12",
+    "title": "Time to unwind",
+    "category": "HAIR / CARE RITUALS",
+    "description": "Scalp care, careful application and a moment to relax.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-12.mp4",
+    "preview": "/media/work-12-preview.mp4",
+    "duration": 15.86,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-13",
+    "type": "video",
+    "image": "work-13",
+    "title": "A beautifully smooth finish",
+    "category": "HAIR / THE FINISH",
+    "description": "Light catching the finished hair at Touch of Saien.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-13.mp4",
+    "preview": "/media/work-13-preview.mp4",
+    "duration": 18.32,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-14",
+    "type": "video",
+    "image": "work-14",
+    "title": "Good grooming, great energy",
+    "category": "MEN / GROOMING",
+    "description": "Men’s grooming and the atmosphere of a day at the salon.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "MEN",
+      "HAIR"
+    ],
+    "src": "/media/work-14.mp4",
+    "preview": "/media/work-14-preview.mp4",
+    "duration": 40.75,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-15",
+    "type": "video",
+    "image": "work-15",
+    "title": "Your signature cut",
+    "category": "HAIR / THE TRANSFORMATION",
+    "description": "From the first conversation to a fresh, personal finish.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-15.mp4",
+    "preview": "/media/work-15-preview.mp4",
+    "duration": 68.33,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  },
+  {
+    "id": "work-16",
+    "type": "video",
+    "image": "work-16",
+    "title": "The sleek-hair edit",
+    "category": "HAIR / THE TRANSFORMATION",
+    "description": "A complete salon story with care, styling and a sleek finish.",
+    "tags": [
+      "ALL",
+      "VIDEO",
+      "HAIR"
+    ],
+    "src": "/media/work-16.mp4",
+    "preview": "/media/work-16-preview.mp4",
+    "duration": 105.97,
+    "hasAudio": true,
+    "width": 720,
+    "height": 1280,
+    "collection": "work"
+  }
+]

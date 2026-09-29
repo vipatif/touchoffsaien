@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {indiaToday,validateBooking,composeBooking} from '../lib/booking.mjs';
+const now=new Date('2026-09-26T06:00:00Z');
+const valid={name:'Test Guest',phone:'+91 90000 00000',service:'Hair',date:'2026-09-27',time:'14:30',message:'Colour consultation'};
+test('valid appointment creates no validation errors',()=>assert.deepEqual(validateBooking(valid,now),{}));
+test('rejects impossible calendar dates',()=>assert.ok(validateBooking({...valid,date:'2027-02-31'},now).date));
+test('India date is correct across UTC midnight boundary',()=>assert.equal(indiaToday(new Date('2026-09-26T20:00:00Z')),'2026-09-27'));
+test('rejects past date and elapsed time in India',()=>{assert.ok(validateBooking({...valid,date:'2026-09-25'},now).date);assert.ok(validateBooking({...valid,date:'2026-09-26',time:'10:30'},now).time)});
+test('rejects invalid phone, missing service and short name',()=>{const e=validateBooking({...valid,name:' ',phone:'12abc',service:''},now);assert.ok(e.name&&e.phone&&e.service)});
+test('rejects oversized message and invalid time',()=>{const e=validateBooking({...valid,message:'x'.repeat(1001),time:'29:80'},now);assert.ok(e.message&&e.time)});
+test('request includes structure and confirmation language',()=>{const m=composeBooking(valid);assert.ok(m.includes('Name: Test Guest'));assert.ok(m.includes('Preferred time: 14:30 IST'));assert.ok(m.includes('Please confirm availability.'))});

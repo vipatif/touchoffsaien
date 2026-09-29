@@ -1,0 +1,2 @@
+import {Eyebrow,Photo} from './ui';
+export default function PageHero({label,title,italic,description,image}:{label:string;title:string;italic:string;description:string;image:string}){return <section className="page-hero"><div><a className="breadcrumb" href="/">HOME / {label}</a><Eyebrow>TOUCH OF SAIEN / {label}</Eyebrow><h1>{title}<br/><em>{italic}</em></h1><p>{description}</p></div><Photo name={image} alt={`${label} at Touch of Saien, Barrackpore`} eager/></section>}
