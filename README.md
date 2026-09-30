@@ -4,11 +4,11 @@ A custom editorial website for Touch of Saien, Family Salon & Academy, Barrackpo
 
 ## Run locally
 
-Use a current supported Node.js LTS release and pnpm. Install dependencies from the included lockfile:
+Use a current supported Node.js LTS release. Install dependencies with npm:
 
 ```sh
-pnpm install --frozen-lockfile
-pnpm dev
+npm install
+npm run dev
 ```
 
 The development website is available at `http://localhost:3000`. Development output is isolated in `.next-dev` so a production build can run alongside the development server.
@@ -16,17 +16,17 @@ The development website is available at `http://localhost:3000`. Development out
 ## Build and preview the production website
 
 ```sh
-pnpm typecheck
-pnpm test
-pnpm build
-pnpm start
+npm run typecheck
+npm test
+npm run build
+npm start
 ```
 
-`pnpm build` writes the complete static website to `.next-production/` for this project. `pnpm start` serves that fresh production export using the included Node.js server, with media byte-range support for video seeking. It uses port 3000 by default. To run the production preview on port 3001 in PowerShell:
+`npm run build` writes the complete static website to `.next-production/` for this project. `npm start` serves that fresh production export using the included Node.js server, with media byte-range support for video seeking. If `.next-production/` is missing, `npm start` builds the site first. It uses `process.env.PORT || 3000`. To run the production preview on port 3001 in PowerShell:
 
 ```powershell
 $env:PORT = '3001'
-pnpm start
+npm start
 ```
 
 Rebuild after changing source files, content or the site URL. The production server serves the latest files in `.next-production/`; it does not compile source changes.
@@ -80,12 +80,12 @@ NEXT_PUBLIC_SITE_URL=https://your-final-domain.example
 
 This value controls absolute SEO URLs, including the sitemap and social metadata. Without it, the project intentionally uses the local development origin. Metadata, canonical links, a sitemap, robots output, social preview imagery and HairSalon structured data are included.
 
-For Vercel, import the project, select the Next.js preset, set `NEXT_PUBLIC_SITE_URL`, and use `pnpm build`. For another static host, deploy the generated static export from `.next-production/` and preserve directory `index.html` routing and `404.html`. For a Node.js host, build first and run `pnpm start`, setting `PORT` as required by the host. The static export does not use `next start`.
+For Vercel, import the project, select the Next.js preset, set `NEXT_PUBLIC_SITE_URL`, and use `npm run build`. For another static host, deploy the generated static export from `.next-production/` and preserve directory `index.html` routing and `404.html`. For a Node.js host, install dependencies with `npm install`, then run `npm start`, setting `PORT` as required by the host. The static export does not use `next start`.
 
 Keep the supplied MP4s available with the `video/mp4` content type and byte-range requests enabled. The original films are intentionally preserved at source quality and make up most of the site's media size. For larger traffic, the same files can be served from a CDN; update their `src` and `preview` values in the media catalogue accordingly.
 
 ## Validation
 
-`pnpm typecheck` checks TypeScript. `pnpm test` runs the booking-validation and message-composition tests. `pnpm build` verifies static page generation. Browser checks should additionally cover responsive layouts, navigation, gallery filters, each film's playback and sound, viewer controls, keyboard focus, booking review and outgoing contact links. Automated booking tests do not certify every browser interaction or every mobile device.
+`npm run typecheck` checks TypeScript. `npm test` runs the booking-validation and message-composition tests. `npm run build` verifies static page generation. Browser checks should additionally cover responsive layouts, navigation, gallery filters, each film's playback and sound, viewer controls, keyboard focus, booking review and outgoing contact links. Automated booking tests do not certify every browser interaction or every mobile device.
 
 See [ASSET-SOURCES.md](ASSET-SOURCES.md) for asset provenance, media quality and audio details.
